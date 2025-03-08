@@ -1,4 +1,5 @@
 # AI-powered-Resume-Screening-and-Ranking-System
+
 📌 Overview
 
 The AI-Powered Resume Screening and Ranking System is a Streamlit-based web application that helps recruiters efficiently screen and rank resumes based on a given job description. It utilizes Natural Language Processing (NLP) techniques, specifically TF-IDF (Term Frequency-Inverse Document Frequency) and cosine similarity, to determine how well each resume matches the job requirements.
@@ -14,15 +15,23 @@ The AI-Powered Resume Screening and Ranking System is a Streamlit-based web appl
 🛠️ Technologies Used
 
 Python 🐍
+
 Streamlit (for web UI)
+
 PyPDF2 (to extract text from PDFs)
+
 scikit-learn (for NLP & similarity scoring)
+
 Pandas (for data handling)
 
 🚀 How It Works?
+
 Input Job Description: Enter the job description in the text area.
+
 Upload Resumes: Upload multiple PDF resumes.
+
 AI Analysis: The system extracts text, computes TF-IDF vectors, and calculates cosine similarity.
+
 Ranking Display: The resumes are ranked based on their similarity scores.
 
 📦 Installation & Setup
